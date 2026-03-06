@@ -27,7 +27,7 @@ git commit -m "chore: initialize JavaScript Mastery Lab
 Starting the journey: basics → backend. Building in public."
 
 # 4. Connect to GitHub
-git remote add origin https://github.com/YOUR_USERNAME/javascript-mastery-lab.git
+git remote add origin https://github.com/shhivaanssh/javascript-mastery-lab.git
 git branch -M main
 git push -u origin main
 ```
