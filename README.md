@@ -184,7 +184,7 @@ Days Active         : 0
 
 If you're on a similar learning journey, feel free to follow along, fork the repo, or reach out.
 
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR__USERNAME-181717?style=flat-square&logo=github)](https://github.com/shhivaanssh)
+[![GitHub](https://img.shields.io/badge/GitHub-shhivaanssh-181717?style=flat-square&logo=github)](https://github.com/shhivaanssh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/er-shivansh-mishra/)
 
 ---
