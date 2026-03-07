@@ -10,7 +10,7 @@
 ## Phase 1 — JavaScript Foundations
 *Goal: Think in JavaScript. Understand how the language works, not just how to use it.*
 
-### Module 01 — Basics `⏳`
+### Module 01 — Basics `✅ Complete`
 - [ ] Variables: `var`, `let`, `const` — scoping differences
 - [ ] Primitive types: string, number, boolean, null, undefined, symbol, bigint
 - [ ] Type coercion and `typeof`
@@ -23,7 +23,7 @@
 
 ---
 
-### Module 02 — Functions & Scope `⏳`
+### Module 02 — Functions & Scope `✅ Complete`
 - [ ] Function declarations vs expressions
 - [ ] Arrow functions and lexical `this`
 - [ ] Parameters, arguments, default values, rest parameters
@@ -212,7 +212,7 @@ Real-time shared notes using WebSockets — multiple users, live sync.
 ## 📊 Roadmap Status
 
 ```
-Phase 1 — Foundations     [ ░░░░░░░░░░ ] 0%
+Phase 1 — Foundations     [ ░░░░░░░░░░ ] 50%
 Phase 2 — Async JS        [ ░░░░░░░░░░ ] 0%
 Phase 3 — The Browser     [ ░░░░░░░░░░ ] 0%
 Phase 4 — Deep JS         [ ░░░░░░░░░░ ] 0%

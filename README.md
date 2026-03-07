@@ -78,8 +78,8 @@ javascript-mastery-lab/
 
 | # | Module | Status | Project |
 |---|--------|--------|---------|
-| 01 | Variables, Types, Operators | 🔄 In Progress | Simple Calculator |
-| 02 | Functions & Scope | ⏳ Upcoming | Function Playground |
+| 01 | Variables, Types, Operators | Done | Simple Calculator |
+| 02 | Functions & Scope | Done | Function Playground |
 | 03 | Arrays & Objects | ⏳ Upcoming | Data Transformer |
 | 04 | ES6+ Features | ⏳ Upcoming | Modern Syntax Lab |
 | 05 | Asynchronous JS | ⏳ Upcoming | Async Weather App |
@@ -157,7 +157,7 @@ refactor: rewrite promise chain using async/await
 ## 📊 Progress Stats
 
 ```
-Modules Completed   : 0 / 10
+Modules Completed   : 02 / 10
 Mini Projects Built : 0 / 6
 Real Projects       : 0 / 3
 Learning Log Entries: 0
