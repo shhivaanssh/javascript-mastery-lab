@@ -80,7 +80,7 @@ javascript-mastery-lab/
 |---|--------|--------|---------|
 | 01 | Variables, Types, Operators | Done | Simple Calculator |
 | 02 | Functions & Scope | Done | Function Playground |
-| 03 | Arrays & Objects | ⏳ Upcoming | Data Transformer |
+| 03 | Arrays & Objects | Done | Data Transformer |
 | 04 | ES6+ Features | ⏳ Upcoming | Modern Syntax Lab |
 | 05 | Asynchronous JS | ⏳ Upcoming | Async Weather App |
 | 06 | DOM & Browser APIs | ⏳ Upcoming | Interactive Dashboard |
@@ -157,7 +157,7 @@ refactor: rewrite promise chain using async/await
 ## 📊 Progress Stats
 
 ```
-Modules Completed   : 02 / 10
+Modules Completed   : 03 / 10
 Mini Projects Built : 0 / 6
 Real Projects       : 0 / 3
 Learning Log Entries: 0

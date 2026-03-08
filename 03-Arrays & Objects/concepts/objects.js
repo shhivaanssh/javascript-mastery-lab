@@ -36,7 +36,7 @@ const person = { name, age }; // same as { name: name, age: age }
 // --- Computed property names ---
 
 const key  = "score";
-const data = { [key]: 100 };    // { score: 100 }
+const data1 = { [key]: 100 };    // { score: 100 }
 
 const prefix = "user";
 const record = {

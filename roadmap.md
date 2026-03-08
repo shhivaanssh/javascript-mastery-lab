@@ -39,7 +39,7 @@
 
 ---
 
-### Module 03 — Arrays & Objects `⏳`
+### Module 03 — Arrays & Objects `✅ Complete`
 - [ ] Array creation, indexing, mutation
 - [ ] Core methods: `push`, `pop`, `shift`, `unshift`, `splice`, `slice`
 - [ ] Iteration methods: `forEach`, `map`, `filter`, `reduce`, `find`, `some`, `every`
