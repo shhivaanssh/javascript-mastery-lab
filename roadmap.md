@@ -55,7 +55,7 @@
 
 ---
 
-### Module 04 — ES6+ Modern JavaScript `⏳`
+### Module 04 — ES6+ Modern JavaScript `✅ Complete`
 - [ ] `let`/`const` (revisited with context)
 - [ ] Arrow functions (deep dive)
 - [ ] Template literals and tagged templates
