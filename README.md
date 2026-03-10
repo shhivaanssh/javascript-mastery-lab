@@ -4,11 +4,11 @@
 
 ### A structured, project-driven journey from JavaScript fundamentals to backend engineering
 
-[![Learning Status](https://img.shields.io/badge/Status-Active%20Learning-brightgreen?style=for-the-badge)](https://github.com/YOUR_USERNAME/javascript-mastery-lab)
+[![Learning Status](https://img.shields.io/badge/Status-Active%20Learning-brightgreen?style=for-the-badge)](https://github.com/shhivaanssh/javascript-mastery-lab)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/javascript-mastery-lab?style=for-the-badge)](https://github.com/YOUR_USERNAME/javascript-mastery-lab/commits)
-[![Commits](https://img.shields.io/github/commit-activity/m/YOUR_USERNAME/javascript-mastery-lab?style=for-the-badge&color=blue)](https://github.com/YOUR_USERNAME/javascript-mastery-lab/graphs/commit-activity)
+[![Last Commit](https://img.shields.io/github/last-commit/shhivaanssh/javascript-mastery-lab?style=for-the-badge)](https://github.com/shhivaanssh/javascript-mastery-lab/commits)
+[![Commits](https://img.shields.io/github/commit-activity/m/shhivaanssh/javascript-mastery-lab?style=for-the-badge&color=blue)](https://github.com/shhivaanssh/javascript-mastery-lab/graphs/commit-activity)
 
 </div>
 
@@ -157,8 +157,8 @@ refactor: rewrite promise chain using async/await
 ## 📊 Progress Stats
 
 ```
-Modules Completed   : 03 / 10
-Mini Projects Built : 0 / 6
+Modules Completed   : 05 / 10
+Mini Projects Built : 2 / 6
 Real Projects       : 0 / 3
 Learning Log Entries: 0
 Total Commits       : 0
