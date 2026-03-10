@@ -81,8 +81,8 @@ javascript-mastery-lab/
 | 01 | Variables, Types, Operators | Done | Simple Calculator |
 | 02 | Functions & Scope | Done | Function Playground |
 | 03 | Arrays & Objects | Done | Data Transformer |
-| 04 | ES6+ Features | ⏳ Upcoming | Modern Syntax Lab |
-| 05 | Asynchronous JS | ⏳ Upcoming | Async Weather App |
+| 04 | ES6+ Features | Done | Modern Syntax Lab |
+| 05 | Asynchronous JS | Done| Async Weather App |
 | 06 | DOM & Browser APIs | ⏳ Upcoming | Interactive Dashboard |
 | 07 | Advanced JS | ⏳ Upcoming | Custom Framework Slice |
 | 08 | Design Patterns | ⏳ Upcoming | Pattern Library |

@@ -77,7 +77,7 @@
 ## Phase 2 — Asynchronous JavaScript
 *Goal: Understand how JavaScript handles time. This is where most developers get stuck.*
 
-### Module 05 — Asynchronous JavaScript `⏳`
+### Module 05 — Asynchronous JavaScript `✅ Complete`
 - [ ] Synchronous vs asynchronous execution
 - [ ] The event loop — call stack, task queue, microtask queue
 - [ ] Callbacks — basics and callback hell
