@@ -96,7 +96,7 @@
 ## Phase 3 — The Browser
 *Goal: Understand JavaScript's relationship with HTML, CSS, and the browser environment.*
 
-### Module 06 — DOM & Browser APIs `⏳`
+### Module 06 — DOM & Browser APIs `✅ Complete`
 - [ ] The DOM — what it is and how to think about it
 - [ ] Selecting elements: `querySelector`, `getElementById`, etc.
 - [ ] Creating, modifying, removing DOM elements
