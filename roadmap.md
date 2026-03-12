@@ -97,16 +97,16 @@
 *Goal: Understand JavaScript's relationship with HTML, CSS, and the browser environment.*
 
 ### Module 06 — DOM & Browser APIs `✅ Complete`
-- [ ] The DOM — what it is and how to think about it
-- [ ] Selecting elements: `querySelector`, `getElementById`, etc.
-- [ ] Creating, modifying, removing DOM elements
-- [ ] Events — `addEventListener`, event object, event types
-- [ ] Event bubbling and capturing
-- [ ] Event delegation
-- [ ] Local Storage, Session Storage
-- [ ] `setTimeout`, `setInterval`, `requestAnimationFrame`
-- [ ] Form handling and validation
-- [ ] The History and URL APIs
+- [✅] The DOM — what it is and how to think about it
+- [✅] Selecting elements: `querySelector`, `getElementById`, etc.
+- [✅] Creating, modifying, removing DOM elements
+- [✅] Events — `addEventListener`, event object, event types
+- [✅] Event bubbling and capturing
+- [✅ ] Event delegation
+- [✅ ] Local Storage, Session Storage
+- [✅ ] `setTimeout`, `setInterval`, `requestAnimationFrame`
+- [✅ ] Form handling and validation
+- [✅ ] The History and URL APIs
 
 **Mini Project:** `markdown-previewer/` — live HTML preview of markdown typed in a textarea
 
@@ -115,7 +115,7 @@
 ## Phase 4 — Deep JavaScript
 *Goal: Understand the engine. Write code that is correct because you understand why.*
 
-### Module 07 — Advanced JavaScript `⏳`
+### Module 07 — Advanced JavaScript `✅ Complete`
 - [ ] `this` — all binding rules (default, implicit, explicit, `new`, arrow)
 - [ ] `call`, `apply`, `bind`
 - [ ] Prototypes and the prototype chain
