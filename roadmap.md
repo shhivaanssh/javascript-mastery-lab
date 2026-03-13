@@ -11,64 +11,64 @@
 *Goal: Think in JavaScript. Understand how the language works, not just how to use it.*
 
 ### Module 01 — Basics `✅ Complete`
-- [ ] Variables: `var`, `let`, `const` — scoping differences
-- [ ] Primitive types: string, number, boolean, null, undefined, symbol, bigint
-- [ ] Type coercion and `typeof`
-- [ ] Operators: arithmetic, comparison, logical, ternary
-- [ ] Template literals
-- [ ] Conditionals: `if/else`, `switch`
-- [ ] Loops: `for`, `while`, `do...while`, `for...of`, `for...in`
+- [✅] Variables: `var`, `let`, `const` — scoping differences
+- [✅] Primitive types: string, number, boolean, null, undefined, symbol, bigint
+- [✅] Type coercion and `typeof`
+- [✅] Operators: arithmetic, comparison, logical, ternary
+- [✅] Template literals
+- [✅] Conditionals: `if/else`, `switch`
+- [✅] Loops: `for`, `while`, `do...while`, `for...of`, `for...in`
 
 **Mini Project:** `simple-calculator.js` — CLI calculator with all four operations
 
 ---
 
 ### Module 02 — Functions & Scope `✅ Complete`
-- [ ] Function declarations vs expressions
-- [ ] Arrow functions and lexical `this`
-- [ ] Parameters, arguments, default values, rest parameters
-- [ ] First-class functions and higher-order functions
-- [ ] Hoisting — what it is and why it matters
-- [ ] Scope: global, function, block
-- [ ] The scope chain
-- [ ] Closures — definition, use cases, data privacy
-- [ ] IIFE (Immediately Invoked Function Expressions)
-- [ ] The call stack
+- [✅] Function declarations vs expressions
+- [✅] Arrow functions and lexical `this`
+- [✅] Parameters, arguments, default values, rest parameters
+- [✅] First-class functions and higher-order functions
+- [✅] Hoisting — what it is and why it matters
+- [✅] Scope: global, function, block
+- [✅] The scope chain
+- [✅] Closures — definition, use cases, data privacy
+- [✅] IIFE (Immediately Invoked Function Expressions)
+- [✅] The call stack
 
 **Mini Project:** `function-playground/` — closure counter, memoize, compose utilities
 
 ---
 
 ### Module 03 — Arrays & Objects `✅ Complete`
-- [ ] Array creation, indexing, mutation
-- [ ] Core methods: `push`, `pop`, `shift`, `unshift`, `splice`, `slice`
-- [ ] Iteration methods: `forEach`, `map`, `filter`, `reduce`, `find`, `some`, `every`
-- [ ] Array destructuring
-- [ ] Object literals, properties, methods
-- [ ] Property shorthand, computed properties
-- [ ] Object destructuring
-- [ ] Spread and rest operators (`...`)
-- [ ] Shallow vs deep copy
-- [ ] `JSON.stringify` and `JSON.parse`
+- [✅] Array creation, indexing, mutation
+- [✅] Core methods: `push`, `pop`, `shift`, `unshift`, `splice`, `slice`
+- [✅] Iteration methods: `forEach`, `map`, `filter`, `reduce`, `find`, `some`, `every`
+- [✅] Array destructuring
+- [✅] Object literals, properties, methods
+- [✅] Property shorthand, computed properties
+- [✅] Object destructuring
+- [✅] Spread and rest operators (`...`)
+- [✅] Shallow vs deep copy
+- [✅] `JSON.stringify` and `JSON.parse`
 
 **Mini Project:** `data-transformer/` — transform and analyze a dataset using array methods only
 
 ---
 
 ### Module 04 — ES6+ Modern JavaScript `✅ Complete`
-- [ ] `let`/`const` (revisited with context)
-- [ ] Arrow functions (deep dive)
-- [ ] Template literals and tagged templates
-- [ ] Destructuring (arrays and objects, nested)
-- [ ] Spread / rest operators
-- [ ] Default parameters
-- [ ] Modules: `import` / `export` (ESM)
-- [ ] Optional chaining (`?.`) and nullish coalescing (`??`)
-- [ ] `Map` and `Set`
-- [ ] `WeakMap` and `WeakSet`
-- [ ] Symbols
-- [ ] Iterators and `for...of`
-- [ ] Generators (intro)
+- [✅] `let`/`const` (revisited with context)
+- [✅] Arrow functions (deep dive)
+- [✅] Template literals and tagged templates
+- [✅] Destructuring (arrays and objects, nested)
+- [✅] Spread / rest operators
+- [✅] Default parameters
+- [✅] Modules: `import` / `export` (ESM)
+- [✅] Optional chaining (`?.`) and nullish coalescing (`??`)
+- [✅] `Map` and `Set`
+- [✅] `WeakMap` and `WeakSet`
+- [✅] Symbols
+- [✅] Iterators and `for...of`
+- [✅] Generators (intro)
 
 **Mini Project:** `modern-syntax-lab/` — refactor ES5 code to modern JS and annotate every change
 
@@ -78,16 +78,16 @@
 *Goal: Understand how JavaScript handles time. This is where most developers get stuck.*
 
 ### Module 05 — Asynchronous JavaScript `✅ Complete`
-- [ ] Synchronous vs asynchronous execution
-- [ ] The event loop — call stack, task queue, microtask queue
-- [ ] Callbacks — basics and callback hell
-- [ ] Promises — creation, `.then()`, `.catch()`, `.finally()`
-- [ ] Promise chaining
-- [ ] `Promise.all`, `Promise.race`, `Promise.allSettled`, `Promise.any`
-- [ ] `async` / `await` — syntax and mental model
-- [ ] Error handling with `try/catch` in async functions
-- [ ] `fetch` API — making HTTP requests
-- [ ] `AbortController` and request cancellation
+- [✅] Synchronous vs asynchronous execution
+- [✅] The event loop — call stack, task queue, microtask queue
+- [✅] Callbacks — basics and callback hell
+- [✅] Promises — creation, `.then()`, `.catch()`, `.finally()`
+- [✅] Promise chaining
+- [✅] `Promise.all`, `Promise.race`, `Promise.allSettled`, `Promise.any`
+- [✅] `async` / `await` — syntax and mental model
+- [✅] Error handling with `try/catch` in async functions
+- [✅] `fetch` API — making HTTP requests
+- [✅] `AbortController` and request cancellation
 
 **Mini Project:** `async-weather-app/` — fetch live weather data, handle loading/error states
 
@@ -116,30 +116,30 @@
 *Goal: Understand the engine. Write code that is correct because you understand why.*
 
 ### Module 07 — Advanced JavaScript `✅ Complete`
-- [ ] `this` — all binding rules (default, implicit, explicit, `new`, arrow)
-- [ ] `call`, `apply`, `bind`
-- [ ] Prototypes and the prototype chain
-- [ ] `Object.create`, `Object.assign`, `Object.keys/values/entries`
-- [ ] Classes — syntax, inheritance, `super`, static methods
-- [ ] Getters and setters
-- [ ] Symbols (deep dive)
-- [ ] Iterators and the iteration protocol
-- [ ] Generators — `function*`, `yield`
-- [ ] Proxies and Reflect
-- [ ] WeakRef and FinalizationRegistry
-- [ ] Memory management and garbage collection basics
+- [✅] `this` — all binding rules (default, implicit, explicit, `new`, arrow)
+- [✅] `call`, `apply`, `bind`
+- [✅] Prototypes and the prototype chain
+- [✅] `Object.create`, `Object.assign`, `Object.keys/values/entries`
+- [✅] Classes — syntax, inheritance, `super`, static methods
+- [✅] Getters and setters
+- [✅] Symbols (deep dive)
+- [✅] Iterators and the iteration protocol
+- [✅] Generators — `function*`, `yield`
+- [✅] Proxies and Reflect
+- [✅] WeakRef and FinalizationRegistry
+- [✅] Memory management and garbage collection basics
 
 **Mini Project:** `custom-observable/` — build a simplified reactive observable from scratch
 
 ---
 
-### Module 08 — Design Patterns `⏳`
-- [ ] Why patterns matter — shared vocabulary, proven solutions
-- [ ] Creational: Singleton, Factory, Builder
-- [ ] Structural: Module, Decorator, Facade, Proxy
-- [ ] Behavioral: Observer, Strategy, Command, Iterator
-- [ ] Functional patterns: Composition, Currying, Partial Application
-- [ ] Anti-patterns to avoid
+### Module 08 — Design Patterns `✅ Complete`
+- [✅] Why patterns matter — shared vocabulary, proven solutions
+- [✅] Creational: Singleton, Factory, Builder
+- [✅] Structural: Module, Decorator, Facade, Proxy
+- [✅] Behavioral: Observer, Strategy, Command, Iterator
+- [✅] Functional patterns: Composition, Currying, Partial Application
+- [✅] Anti-patterns to avoid
 
 **Mini Project:** `pattern-library/` — implement each pattern with a real use-case example
 

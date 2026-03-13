@@ -83,9 +83,9 @@ javascript-mastery-lab/
 | 03 | Arrays & Objects | Done | Data Transformer |
 | 04 | ES6+ Features | Done | Modern Syntax Lab |
 | 05 | Asynchronous JS | Done| Async Weather App |
-| 06 | DOM & Browser APIs | ⏳ Upcoming | Interactive Dashboard |
-| 07 | Advanced JS | ⏳ Upcoming | Custom Framework Slice |
-| 08 | Design Patterns | ⏳ Upcoming | Pattern Library |
+| 06 | DOM & Browser APIs | Done | Interactive Dashboard |
+| 07 | Advanced JS |  Done | Custom Framework Slice |
+| 08 | Design Patterns | Done | Pattern Library |
 | 09 | Node.js Basics | ⏳ Upcoming | File System CLI |
 | 10 | API Development | ⏳ Upcoming | REST API + Auth |
 
@@ -157,12 +157,12 @@ refactor: rewrite promise chain using async/await
 ## 📊 Progress Stats
 
 ```
-Modules Completed   : 07 / 10
-Mini Projects Built : 4 / 6
+Modules Completed   : 08 / 10
+Mini Projects Built : 5 / 6
 Real Projects       : 0 / 3
 Learning Log Entries: 0
-Total Commits       : 0
-Days Active         : 0
+Total Commits       : 32
+Days Active         : 9
 ```
 
 > Updated manually each week in sync with `learning-log.md`
