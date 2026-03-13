@@ -1,0 +1,10 @@
+{
+  "name": "pattern-library",
+  "version": "1.0.0",
+  "description": "Module 08 mini project — each design pattern with a real use-case",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
