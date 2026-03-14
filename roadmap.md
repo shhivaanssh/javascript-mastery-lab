@@ -148,17 +148,17 @@
 ## Phase 5 — Node.js & Backend
 *Goal: Take JavaScript to the server. Build real networked applications.*
 
-### Module 09 — Node.js Basics `⏳`
-- [ ] What Node.js is — V8, libuv, event loop differences from browser
-- [ ] Modules: CommonJS vs ESM in Node
-- [ ] The `fs` module — reading, writing, watching files
-- [ ] The `path` module
-- [ ] `process` object and environment variables
-- [ ] Streams and buffers
-- [ ] Events module and `EventEmitter`
-- [ ] The `http` module — create a basic server from scratch
-- [ ] npm — managing dependencies, `package.json`, scripts
-- [ ] Debugging Node.js applications
+### Module 09 — Node.js Basics `✅ Complete`
+- [✅] What Node.js is — V8, libuv, event loop differences from browser
+- [✅] Modules: CommonJS vs ESM in Node
+- [✅] The `fs` module — reading, writing, watching files
+- [✅] The `path` module
+- [✅] `process` object and environment variables
+- [✅] Streams and buffers
+- [✅] Events module and `EventEmitter`
+- [✅] The `http` module — create a basic server from scratch
+- [✅] npm — managing dependencies, `package.json`, scripts
+- [✅] Debugging Node.js applications
 
 **Mini Project:** `file-system-cli/` — a CLI tool to organize, search, and tag local files
 
