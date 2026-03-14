@@ -1,0 +1,16 @@
+{
+  "name": "file-system-cli",
+  "version": "1.0.0",
+  "description": "Module 09 mini project — CLI tool to organize, search, and tag local files",
+  "type": "module",
+  "bin": {
+    "fscli": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test":  "node bin/cli.js --help"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
