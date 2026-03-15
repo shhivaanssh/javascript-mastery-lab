@@ -1,0 +1,15 @@
+{
+  "name": "habit-tracker-api",
+  "version": "1.0.0",
+  "description": "Module 10 — Full REST API with JWT auth, habit tracking, streaks, and stats",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev":   "node --watch src/server.js",
+    "test":  "node src/test.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
