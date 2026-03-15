@@ -164,17 +164,17 @@
 
 ---
 
-### Module 10 — API Development `⏳`
-- [ ] HTTP fundamentals — methods, status codes, headers
-- [ ] REST principles and API design
-- [ ] Building a REST API without frameworks (raw `http` module)
-- [ ] Introduction to Express.js — routing, middleware, error handling
-- [ ] Request validation
-- [ ] Authentication — sessions vs JWT
-- [ ] Environment variables and config management
-- [ ] Connecting to a database (SQLite → PostgreSQL)
-- [ ] API error handling patterns
-- [ ] Testing APIs with curl and tools like Thunder Client
+### Module 10 — API Development `✅ Complete`
+- [✅] HTTP fundamentals — methods, status codes, headers
+- [✅] REST principles and API design
+- [✅] Building a REST API without frameworks (raw `http` module)
+- [✅] Introduction to Express.js — routing, middleware, error handling
+- [✅] Request validation
+- [✅] Authentication — sessions vs JWT
+- [✅] Environment variables and config management
+- [✅] Connecting to a database (SQLite → PostgreSQL)
+- [✅] API error handling patterns
+- [✅] Testing APIs with curl and tools like Thunder Client
 
 **Real-World Project:** `habit-tracker-api/` — full REST API with auth, streaks, stats
 
@@ -212,11 +212,11 @@ Real-time shared notes using WebSockets — multiple users, live sync.
 ## 📊 Roadmap Status
 
 ```
-Phase 1 — Foundations     [ ░░░░░░░░░░ ] 50%
-Phase 2 — Async JS        [ ░░░░░░░░░░ ] 0%
-Phase 3 — The Browser     [ ░░░░░░░░░░ ] 0%
-Phase 4 — Deep JS         [ ░░░░░░░░░░ ] 0%
-Phase 5 — Node.js         [ ░░░░░░░░░░ ] 0%
+Phase 1 — Foundations     [ ░░░░░░░░░░ ] 100%
+Phase 2 — Async JS        [ ░░░░░░░░░░ ] 100%
+Phase 3 — The Browser     [ ░░░░░░░░░░ ] 100%
+Phase 4 — Deep JS         [ ░░░░░░░░░░ ] 100%
+Phase 5 — Node.js         [ ░░░░░░░░░░ ] 100%
 Phase 6 — Real-World      [ ░░░░░░░░░░ ] 0%
 ```
 
