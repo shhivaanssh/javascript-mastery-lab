@@ -1,0 +1,19 @@
+{
+  "name": "devnotes",
+  "version": "0.1.0",
+  "description": "Personal developer knowledge base — capture, tag, and search code notes",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "dn": "./bin/dn.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev":   "node --watch src/server.js",
+    "test":  "node src/test.js"
+  },
+  "keywords": ["notes", "cli", "developer", "snippets"],
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
