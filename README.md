@@ -87,7 +87,7 @@ javascript-mastery-lab/
 | 07 | Advanced JS |  Done | Custom Framework Slice |
 | 08 | Design Patterns | Done | Pattern Library |
 | 09 | Node.js Basics | Done | File System CLI |
-| 10 | API Development | ⏳ Upcoming | REST API + Auth |
+| 10 | API Development | Done | REST API + Auth |
 
 > Full roadmap with subtopics → [`roadmap.md`](./roadmap.md)
 
@@ -159,7 +159,7 @@ refactor: rewrite promise chain using async/await
 ```
 Modules Completed   : 10 / 10
 Mini Projects Built : 6 / 6
-Real Projects       : 0 / 3
+Real Projects       : 1 / 3
 Learning Log Entries: 0
 Total Commits       : 40
 Days Active         : 11
