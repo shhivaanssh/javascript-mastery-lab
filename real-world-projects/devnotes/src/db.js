@@ -137,3 +137,52 @@ export function withTags(note) {
   const tags = stmt.getNoteTags.all(note.id).map(r => r.name);
   return { ...note, tags };
 }
+
+// Dynamic query — filter by search, tag, language, pinned
+export function queryNotes({ q, tag, lang, pinned, page = 1, limit = 20 } = {}) {
+  limit = Math.min(Number(limit) || 20, 100);
+  page  = Math.max(Number(page)  || 1,  1);
+
+  const params = [];
+  const joins  = [];
+  const where  = ["1=1"];
+
+  if (q) {
+    // Sanitize FTS5 special characters, then do a prefix match
+    const safe = q.replace(/["'()*\[\]^]/g, " ").trim();
+    if (safe) {
+      where.push("n.id IN (SELECT rowid FROM notes_fts WHERE notes_fts MATCH ?)");
+      params.push(safe + "*");
+    }
+  }
+
+  if (tag) {
+    joins.push("JOIN note_tags nt ON nt.note_id = n.id JOIN tags t ON t.id = nt.tag_id");
+    where.push("t.name = ? COLLATE NOCASE");
+    params.push(tag);
+  }
+
+  if (lang) {
+    where.push("n.language = ? COLLATE NOCASE");
+    params.push(lang);
+  }
+
+  if (pinned === "1" || pinned === true) {
+    where.push("n.pinned = 1");
+  }
+
+  const j = joins.join(" ");
+  const w = `WHERE ${where.join(" AND ")}`;
+
+  const total = db.prepare(
+    `SELECT COUNT(DISTINCT n.id) as total FROM notes n ${j} ${w}`
+  ).get(...params).total;
+
+  const rows = db.prepare(`
+    SELECT DISTINCT n.* FROM notes n ${j} ${w}
+    ORDER BY n.pinned DESC, n.updated_at DESC
+    LIMIT ? OFFSET ?
+  `).all(...params, limit, (page - 1) * limit);
+
+  return { rows, total, page, limit, pages: Math.ceil(total / limit) };
+}
