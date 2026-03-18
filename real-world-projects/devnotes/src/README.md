@@ -12,8 +12,8 @@ Skills used: Node.js, REST API, SQLite, file system, full-text search, CLI.
 | Phase | What | Status |
 |-------|------|--------|
 | Day 1 | Project scaffold, DB schema, server boots | ✅ Done |
-| Day 2 | Full CRUD API + FTS search + tags | 🔜 Next |
-| Day 3 | Web UI + CLI (`dn add`, `dn search`) | ⏳ Soon |
+| Day 2 | Full CRUD API + FTS search + tags | ✅ Done |
+| Day 3 | Web UI + CLI (`dn add`, `dn search`) | 🔜 Next |
 
 ---
 
