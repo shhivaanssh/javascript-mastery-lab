@@ -13,7 +13,7 @@ Skills used: Node.js, REST API, SQLite, file system, full-text search, CLI.
 |-------|------|--------|
 | Day 1 | Project scaffold, DB schema, server boots | ✅ Done |
 | Day 2 | Full CRUD API + FTS search + tags | ✅ Done |
-| Day 3 | Web UI + CLI (`dn add`, `dn search`) | 🔜 Next |
+| Day 3 | Web UI + CLI (`dn add`, `dn search`) | ✅ Done |
 
 ---
 
@@ -25,29 +25,51 @@ cd real-world-projects/devnotes
 # Copy env file
 cp .env.example .env
 
-# Start the server (Node 22+ required — uses node:sqlite)
+# Start the server (Node 22+ required)
 node src/server.js
-
-# Dev mode (auto-restarts on file change)
-node --watch src/server.js
 ```
 
-Check it's running:
+Open the web UI: **http://localhost:4000**
+
+---
+
+## CLI usage
+
 ```bash
-curl http://localhost:4000/health
+# Add a note
+node bin/dn.js add "Array reduce" --lang javascript --tag arrays --tag functional
+
+# List notes
+node bin/dn.js list
+node bin/dn.js list --tag javascript --pinned
+
+# Full-text search
+node bin/dn.js search "closure"
+
+# View a note
+node bin/dn.js view 3
+
+# Edit a note
+node bin/dn.js edit 3 --tag arrays --tag must-know
+
+# Delete
+node bin/dn.js delete 3
+
+# All tags with counts
+node bin/dn.js tags
+
+# Open web UI in browser
+node bin/dn.js open
 ```
 
-Expected response:
-```json
-{
-  "ok": true,
-  "data": {
-    "status": "ok",
-    "version": "0.1.0",
-    "env": "development",
-    "uptime": 3
-  }
-}
+Keyboard shortcuts in the UI: `Ctrl+N` new note · `/` focus search · `Ctrl+Enter` save modal
+
+---
+
+## Run tests
+
+```bash
+node src/test.js   # 29 tests — all green
 ```
 
 ---
